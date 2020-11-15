@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Archivo", sans-serif;
+  font-size: 62.5%; }
+
+.nav {
+  height: 164px;
+  background-color: #033845; }
+  .nav__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .nav__logo-image {
+    width: 177px;
+    margin: 40px; }
+  .nav__top-right {
+    margin: 40px; }
+  .nav__phone-number {
+    color: #f7db5f;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.89rem; }
+  .nav__button {
+    background-color: #f7db5f;
+    font-size: 14px;
+    padding: 12px 13px;
+    color: #033845;
+    text-transform: uppercase;
+    line-height: 1.8rem;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    font-weight: 700;
+    border: #033845;
+    cursor: pointer;
+    margin-left: 25px; }
