@@ -28,11 +28,6 @@ body {
     .header__phone-number:hover {
       border-bottom: 1px solid #f7db5f; }
   .header__button {
-    font-size: 14px;
-    padding: 12px 13px;
-    line-height: 1.8rem;
-    border: #033845;
-    cursor: pointer;
     margin-left: 25px; }
 
 .nav__list {
@@ -72,6 +67,22 @@ body {
     letter-spacing: 0.5px; }
   .banner__btn {
     margin-top: -40px; }
+
+.options {
+  background-color: #033845;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 25vw;
+  padding-right: 25vw; }
+  .options__list {
+    list-style-type: none;
+    display: flex; }
+  .options__item {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "archivo" sans-serif; }
 
 .btn-primary {
   background-color: #f7db5f;
