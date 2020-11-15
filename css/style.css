@@ -5,7 +5,7 @@ body {
   font-size: 62.5%; }
 
 .header {
-  height: 164px;
+  height: 20vh;
   background-color: #033845; }
   .header__top {
     display: flex;
@@ -31,7 +31,6 @@ body {
     font-size: 14px;
     padding: 12px 13px;
     line-height: 1.8rem;
-    letter-spacing: 0.5px;
     border: #033845;
     cursor: pointer;
     margin-left: 25px; }
@@ -53,6 +52,27 @@ body {
   .nav__item:hover {
     color: #f7db5f; }
 
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../Imgs/BannerImageLarge.jpg);
+  height: 81vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .banner__heading {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    margin-top: -60px;
+    letter-spacing: 0.5px; }
+  .banner__btn {
+    margin-top: -40px; }
+
 .btn-primary {
   background-color: #f7db5f;
   border-radius: 3px;
@@ -60,6 +80,11 @@ body {
   border: #033845;
   color: #033845;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 12px 13px;
+  line-height: 1.8rem; }
   .btn-primary:hover {
     background-color: #e99557; }

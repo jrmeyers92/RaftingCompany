@@ -1,5 +1,5 @@
 .header {
-	height: 164px;
+	height: 20vh;
 	background-color: $dark-green;
 
 	&__top {
@@ -37,7 +37,6 @@
 		font-size: 14px;
 		padding: 12px 13px;
 		line-height: 1.8rem;
-		letter-spacing: 0.5px;
 		border: $dark-green;
 		cursor: pointer;
 		margin-left: 25px;

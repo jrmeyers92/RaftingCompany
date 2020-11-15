@@ -7,6 +7,10 @@
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 0.5px;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 12px 13px;
+	line-height: 1.8rem;
 
 	&:hover {
 		background-color: $orange;
