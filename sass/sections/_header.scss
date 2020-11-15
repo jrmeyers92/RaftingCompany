@@ -34,22 +34,12 @@
 	}
 
 	&__button {
-		background-color: $yellow;
 		font-size: 14px;
 		padding: 12px 13px;
-		color: $dark-green;
-		text-transform: uppercase;
 		line-height: 1.8rem;
 		letter-spacing: 0.5px;
-		border-radius: 3px;
-		font-weight: 700;
 		border: $dark-green;
 		cursor: pointer;
 		margin-left: 25px;
-		transition: all 0.2s;
-
-		&:hover {
-			background-color: $orange;
-		}
 	}
 }

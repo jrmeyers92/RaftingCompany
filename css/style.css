@@ -28,21 +28,13 @@ body {
     .header__phone-number:hover {
       border-bottom: 1px solid #f7db5f; }
   .header__button {
-    background-color: #f7db5f;
     font-size: 14px;
     padding: 12px 13px;
-    color: #033845;
-    text-transform: uppercase;
     line-height: 1.8rem;
     letter-spacing: 0.5px;
-    border-radius: 3px;
-    font-weight: 700;
     border: #033845;
     cursor: pointer;
-    margin-left: 25px;
-    transition: all 0.2s; }
-    .header__button:hover {
-      background-color: #e99557; }
+    margin-left: 25px; }
 
 .nav__list {
   display: flex;
@@ -60,3 +52,14 @@ body {
   transition: all 0.2s; }
   .nav__item:hover {
     color: #f7db5f; }
+
+.btn-primary {
+  background-color: #f7db5f;
+  border-radius: 3px;
+  transition: all 0.2s;
+  border: #033845;
+  color: #033845;
+  text-transform: uppercase;
+  font-weight: 700; }
+  .btn-primary:hover {
+    background-color: #e99557; }

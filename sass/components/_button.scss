@@ -1,0 +1,14 @@
+.btn-primary {
+	background-color: $yellow;
+	border-radius: 3px;
+	transition: all 0.2s;
+	border: $dark-green;
+	color: $dark-green;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+
+	&:hover {
+		background-color: $orange;
+	}
+}
