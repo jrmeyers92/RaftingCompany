@@ -1,0 +1,55 @@
+.header {
+	height: 164px;
+	background-color: $dark-green;
+
+	&__top {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		// margin-bottom: 4px;
+	}
+
+	&__logo-image {
+		width: 177px;
+		margin-top: 40px;
+		margin-left: 40px;
+	}
+
+	&__top-right {
+		margin-top: 40px;
+		margin-right: 40px;
+	}
+
+	&__phone-number {
+		color: $yellow;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 1.89rem;
+		cursor: pointer;
+
+		&:hover {
+			border-bottom: 1px solid $yellow;
+		}
+	}
+
+	&__button {
+		background-color: $yellow;
+		font-size: 14px;
+		padding: 12px 13px;
+		color: $dark-green;
+		text-transform: uppercase;
+		line-height: 1.8rem;
+		letter-spacing: 0.5px;
+		border-radius: 3px;
+		font-weight: 700;
+		border: $dark-green;
+		cursor: pointer;
+		margin-left: 25px;
+		transition: all 0.2s;
+
+		&:hover {
+			background-color: $orange;
+		}
+	}
+}
