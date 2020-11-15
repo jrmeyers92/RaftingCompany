@@ -1,20 +1,29 @@
 {
-	"name": "raftingcompany",
-	"version": "1.0.0",
-	"description": "Website for rafting company",
-	"main": "script.js",
-	"scripts": {
-		"start": "node-sass sass/main.scss css/style.css"
-	},
-	"keywords": [
-		"white",
-		"water",
-		"rafting",
-		"colorado"
-	],
-	"author": "Jake Meyers",
-	"license": "ISC",
-	"devDependencies": {
-		"node-sass": "^5.0.0"
-	}
+  "name": "raftingcompany",
+  "version": "1.0.0",
+  "description": "Website for rafting company",
+  "main": "script.js",
+  "scripts": {
+    "start": "node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "white",
+    "water",
+    "rafting",
+    "colorado"
+  ],
+  "author": "Jake Meyers",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrmeyers92/RaftingCompany.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jrmeyers92/RaftingCompany/issues"
+  },
+  "homepage": "https://github.com/jrmeyers92/RaftingCompany#readme"
 }
