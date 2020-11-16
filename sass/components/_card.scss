@@ -1,0 +1,67 @@
+.card {
+	display: grid;
+	max-width: 960px;
+	background-color: white;
+	display: flex;
+	margin-bottom: 30rem;
+	background-color: $dark-white;
+
+	&__image {
+		height: 350px;
+		width: 350px;
+	}
+
+	&__right {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__top {
+		display: flex;
+		align-items: center;
+		border-bottom: 1px solid $border-color;
+	}
+
+	&__title-border {
+		height: 100%;
+		border-right: 1px solid $border-color;
+	}
+
+	&__title {
+		font-size: 32px;
+		color: $dark-green;
+		letter-spacing: 0.5px;
+		border-right: 1px solid $border-color;
+		
+	}
+
+	&__detail {
+		height: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-weight: 700;
+		font-family: 'Archivo';
+		font-size: 16px;
+	}
+
+	&__btn-detail {
+		color: $red;
+	}
+
+	&__book {
+		background-color: $red;
+		height: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		font-size: 16px;
+		font-weight: 700;
+		font-family: 'Archivo';
+		
+	}
+
+	&__btn-book {
+	}
+}

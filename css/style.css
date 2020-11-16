@@ -68,6 +68,13 @@ body {
   .banner__btn {
     margin-top: -40px; }
 
+.cards {
+  background-color: #033845;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
 .options {
   background-color: #033845;
   color: white;
@@ -82,7 +89,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    border-bottom: 1px solid #455357;
+    border-bottom: 1px solid #b9c0c0;
     padding-bottom: 20px; }
   .options__item {
     font-size: 17px;
@@ -128,3 +135,49 @@ body {
   line-height: 1.8rem; }
   .btn-primary:hover {
     background-color: #e99557; }
+
+.card {
+  display: grid;
+  max-width: 960px;
+  background-color: white;
+  display: flex;
+  margin-bottom: 30rem;
+  background-color: #ebebeb; }
+  .card__image {
+    height: 350px;
+    width: 350px; }
+  .card__right {
+    display: flex;
+    flex-direction: column; }
+  .card__top {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #b9c0c0; }
+  .card__title-border {
+    height: 100%;
+    border-right: 1px solid #b9c0c0; }
+  .card__title {
+    font-size: 32px;
+    color: #033845;
+    letter-spacing: 0.5px;
+    border-right: 1px solid #b9c0c0; }
+  .card__detail {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Archivo';
+    font-size: 16px; }
+  .card__btn-detail {
+    color: #ce4a3c; }
+  .card__book {
+    background-color: #ce4a3c;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Archivo'; }
