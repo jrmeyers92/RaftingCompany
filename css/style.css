@@ -78,11 +78,40 @@ body {
   padding-right: 25vw; }
   .options__list {
     list-style-type: none;
-    display: flex; }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    border-bottom: 1px solid #455357;
+    padding-bottom: 20px; }
   .options__item {
     font-size: 17px;
     font-weight: 500;
-    font-family: "archivo" sans-serif; }
+    font-family: "archivo" sans-serif;
+    padding-top: 23px;
+    padding-bottom: 3px;
+    margin: 0 16px 2px 16px;
+    cursor: pointer;
+    transition: all 0.2s; }
+    .options__item:hover {
+      color: #f7db5f; }
+    .options__item:first-child {
+      border-bottom: 2px solid #f7db5f; }
+  .options__heading {
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: "Oswald" sans-serif;
+    letter-spacing: 0.5px;
+    color: #ccc; }
+  .options__paragraph {
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-family: "Archivo" sans-serif;
+    color: #ccc; }
 
 .btn-primary {
   background-color: #f7db5f;
