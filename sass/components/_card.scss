@@ -1,6 +1,8 @@
 .card {
 	display: grid;
-	max-width: 960px;
+	// max-width: 960px;
+	margin-left: 10vw;
+	margin-right: 10vw;
 	background-color: white;
 	display: flex;
 	margin-bottom: 30rem;
@@ -18,21 +20,50 @@
 
 	&__top {
 		display: flex;
+		flex-direction: row;
 		align-items: center;
+		justify-content: space-around;
 		border-bottom: 1px solid $border-color;
-	}
 
-	&__title-border {
-		height: 100%;
-		border-right: 1px solid $border-color;
 	}
 
 	&__title {
 		font-size: 32px;
 		color: $dark-green;
 		letter-spacing: 0.5px;
-		border-right: 1px solid $border-color;
+		// border-right: 1px solid $border-color;
+	}
+
+	&__price-div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		border-left: 1px solid $border-color;
 		
+	}
+
+	&__price {
+		font-size: 34px;
+		columns: $dark-green;
+		font-family: 'Oswald';
+		font-weight: 700;
+		margin-left: 10px;
+	}
+
+	&__per {
+		font-size: 14px;
+		font-family: 'Oswald';
+		font-weight: 700;
+		line-height: 1;
+		margin-left: 3px;
+	}
+
+	&__para {
+		font-size: 16px;
+		letter-spacing: .2px;
+		color: $dark-green;
+		padding: 34px;
 	}
 
 	&__detail {
@@ -43,10 +74,8 @@
 		font-weight: 700;
 		font-family: 'Archivo';
 		font-size: 16px;
-	}
-
-	&__btn-detail {
 		color: $red;
+		border-top: 1px solid $border-color;
 	}
 
 	&__book {
@@ -62,6 +91,5 @@
 		
 	}
 
-	&__btn-book {
-	}
+
 }

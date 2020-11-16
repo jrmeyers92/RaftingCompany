@@ -94,7 +94,7 @@ body {
   .options__item {
     font-size: 17px;
     font-weight: 500;
-    font-family: "archivo" sans-serif;
+    font-family: "Archivo" sans-serif;
     padding-top: 23px;
     padding-bottom: 3px;
     margin: 0 16px 2px 16px;
@@ -138,7 +138,8 @@ body {
 
 .card {
   display: grid;
-  max-width: 960px;
+  margin-left: 10vw;
+  margin-right: 10vw;
   background-color: white;
   display: flex;
   margin-bottom: 30rem;
@@ -151,16 +152,37 @@ body {
     flex-direction: column; }
   .card__top {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     border-bottom: 1px solid #b9c0c0; }
-  .card__title-border {
-    height: 100%;
-    border-right: 1px solid #b9c0c0; }
   .card__title {
     font-size: 32px;
     color: #033845;
-    letter-spacing: 0.5px;
-    border-right: 1px solid #b9c0c0; }
+    letter-spacing: 0.5px; }
+  .card__price-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-left: 1px solid #b9c0c0; }
+  .card__price {
+    font-size: 34px;
+    columns: #033845;
+    font-family: 'Oswald';
+    font-weight: 700;
+    margin-left: 10px; }
+  .card__per {
+    font-size: 14px;
+    font-family: 'Oswald';
+    font-weight: 700;
+    line-height: 1;
+    margin-left: 3px; }
+  .card__para {
+    font-size: 16px;
+    letter-spacing: .2px;
+    color: #033845;
+    padding: 34px; }
   .card__detail {
     height: 60px;
     display: flex;
@@ -168,9 +190,9 @@ body {
     justify-content: center;
     font-weight: 700;
     font-family: 'Archivo';
-    font-size: 16px; }
-  .card__btn-detail {
-    color: #ce4a3c; }
+    font-size: 16px;
+    color: #ce4a3c;
+    border-top: 1px solid #b9c0c0; }
   .card__book {
     background-color: #ce4a3c;
     height: 60px;
