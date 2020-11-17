@@ -5,11 +5,11 @@
 	margin-right: 10vw;
 	background-color: white;
 	display: flex;
-	margin-bottom: 30rem;
+	margin-bottom: 100px;
 	background-color: $dark-white;
 
 	&__image {
-		height: 350px;
+		// height: 
 		width: 350px;
 	}
 
@@ -31,7 +31,8 @@
 		font-size: 32px;
 		color: $dark-green;
 		letter-spacing: 0.5px;
-		// border-right: 1px solid $border-color;
+		text-transform: uppercase;
+		padding-left: 10px;
 	}
 
 	&__price-div {
@@ -40,6 +41,7 @@
 		justify-content: center;
 		height: 100%;
 		border-left: 1px solid $border-color;
+		margin: 0 10px;
 		
 	}
 
@@ -63,7 +65,11 @@
 		font-size: 16px;
 		letter-spacing: .2px;
 		color: $dark-green;
-		padding: 34px;
+		height: 80px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding:  0 34px;
 	}
 
 	&__detail {
