@@ -1,0 +1,29 @@
+.gallery {
+	background-image: url("../../Imgs/RaftGallMedium.jpg");
+	height: 90vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 40%;
+	background-position-x: 59%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&__button {
+		background-color: #fff;
+		border: none;
+		font-size: 16px;
+		font-weight: 900;
+		padding: 22px 57px 22px 22px;
+		text-transform: uppercase;
+		color: $dark-green;
+		text-align: center;
+		line-height: 18px;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+}
+
+.fa-arrow-right {
+	padding-left: 10px;
+}

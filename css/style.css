@@ -73,7 +73,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 200px; }
 
 .options {
   background-color: #033845;
@@ -120,6 +121,32 @@ body {
     font-weight: 300;
     font-family: "Archivo" sans-serif;
     color: #ccc; }
+
+.gallery {
+  background-image: url("../../Imgs/RaftGallMedium.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 40%;
+  background-position-x: 59%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .gallery__button {
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 22px 57px 22px 22px;
+    text-transform: uppercase;
+    color: #033845;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 3px;
+    cursor: pointer; }
+
+.fa-arrow-right {
+  padding-left: 10px; }
 
 .btn-primary {
   background-color: #f7db5f;
@@ -172,18 +199,18 @@ body {
   .card__price {
     font-size: 34px;
     columns: #033845;
-    font-family: 'Oswald';
+    font-family: "Oswald";
     font-weight: 700;
     margin-left: 10px; }
   .card__per {
     font-size: 14px;
-    font-family: 'Oswald';
+    font-family: "Oswald";
     font-weight: 700;
     line-height: 1;
     margin-left: 3px; }
   .card__para {
     font-size: 16px;
-    letter-spacing: .2px;
+    letter-spacing: 0.2px;
     color: #033845;
     height: 80px;
     display: flex;
@@ -196,10 +223,11 @@ body {
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    font-family: 'Archivo';
+    font-family: "Archivo";
     font-size: 16px;
     color: #ce4a3c;
-    border-top: 1px solid #b9c0c0; }
+    border-top: 1px solid #b9c0c0;
+    cursor: pointer; }
   .card__book {
     background-color: #ce4a3c;
     height: 60px;
@@ -209,4 +237,5 @@ body {
     color: white;
     font-size: 16px;
     font-weight: 700;
-    font-family: 'Archivo'; }
+    font-family: "Archivo";
+    cursor: pointer; }

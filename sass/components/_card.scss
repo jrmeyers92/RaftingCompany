@@ -9,7 +9,7 @@
 	background-color: $dark-white;
 
 	&__image {
-		// height: 
+		// height:
 		width: 350px;
 	}
 
@@ -24,7 +24,6 @@
 		align-items: center;
 		justify-content: space-around;
 		border-bottom: 1px solid $border-color;
-
 	}
 
 	&__title {
@@ -42,20 +41,19 @@
 		height: 100%;
 		border-left: 1px solid $border-color;
 		margin: 0 10px;
-		
 	}
 
 	&__price {
 		font-size: 34px;
 		columns: $dark-green;
-		font-family: 'Oswald';
+		font-family: "Oswald";
 		font-weight: 700;
 		margin-left: 10px;
 	}
 
 	&__per {
 		font-size: 14px;
-		font-family: 'Oswald';
+		font-family: "Oswald";
 		font-weight: 700;
 		line-height: 1;
 		margin-left: 3px;
@@ -63,13 +61,13 @@
 
 	&__para {
 		font-size: 16px;
-		letter-spacing: .2px;
+		letter-spacing: 0.2px;
 		color: $dark-green;
 		height: 80px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		padding:  0 34px;
+		padding: 0 34px;
 	}
 
 	&__detail {
@@ -78,10 +76,11 @@
 		align-items: center;
 		justify-content: center;
 		font-weight: 700;
-		font-family: 'Archivo';
+		font-family: "Archivo";
 		font-size: 16px;
 		color: $red;
 		border-top: 1px solid $border-color;
+		cursor: pointer;
 	}
 
 	&__book {
@@ -93,9 +92,7 @@
 		color: white;
 		font-size: 16px;
 		font-weight: 700;
-		font-family: 'Archivo';
-		
+		font-family: "Archivo";
+		cursor: pointer;
 	}
-
-
 }
