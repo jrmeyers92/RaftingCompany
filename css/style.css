@@ -74,7 +74,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 200px; }
+  padding-bottom: 50px; }
 
 .options {
   background-color: #033845;
@@ -124,7 +124,7 @@ body {
 
 .gallery {
   background-image: url("../../Imgs/RaftGallMedium.jpg");
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 40%;
@@ -137,7 +137,7 @@ body {
     border: none;
     font-size: 16px;
     font-weight: 900;
-    padding: 22px 57px 22px 22px;
+    padding: 22px 40px 22px 22px;
     text-transform: uppercase;
     color: #033845;
     text-align: center;
@@ -147,6 +147,43 @@ body {
 
 .fa-arrow-right {
   padding-left: 10px; }
+
+.testimonials {
+  background-color: #033845;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .testimonials__container {
+    height: 60vh;
+    width: 70vw;
+    background-color: #257d89;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .testimonials__icon {
+    color: white;
+    font-size: 55px;
+    margin-top: 40px;
+    margin-bottom: 32px; }
+  .testimonials__star {
+    color: #f7db5f;
+    font-size: 20px;
+    margin-bottom: 40px; }
+  .testimonials__para {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 0.2px;
+    line-height: 1.3;
+    font-weight: 200;
+    font-family: "Archivo" sans-serif;
+    margin: 0 200px; }
+  .testimonials__author {
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 59px;
+    font-family: "Archivo" sans-serif; }
 
 .btn-primary {
   background-color: #f7db5f;
