@@ -5,7 +5,7 @@ body {
   font-size: 62.5%; }
 
 .header {
-  height: 20vh;
+  min-height: 20vh;
   background-color: #02252e; }
   .header__top {
     display: flex;
@@ -32,7 +32,8 @@ body {
 
 .nav__list {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .nav__item {
   list-style-type: none;
@@ -220,7 +221,9 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     color: #ccc;
-    width: 300px; }
+    width: 420px;
+    letter-spacing: 1px;
+    font-size: 16px; }
   .touch__btn {
     height: 42px;
     display: flex;

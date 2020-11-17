@@ -1,5 +1,5 @@
 .header {
-	height: 20vh;
+	min-height: 20vh;
 	background-color: $dark-green;
 
 	&__top {
@@ -34,7 +34,6 @@
 	}
 
 	&__button {
-
 		margin-left: 25px;
 	}
 }
