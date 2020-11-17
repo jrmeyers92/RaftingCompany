@@ -185,6 +185,51 @@ body {
     margin-top: 59px;
     font-family: "Archivo" sans-serif; }
 
+.touch {
+  background-color: #033845;
+  color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .touch__header {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: "Oswald" sans-serif;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+    color: #ebebeb;
+    font-weight: 400; }
+  .touch__para {
+    columns: #ccc;
+    font-size: 19px;
+    font-family: "Archivo" sans-serif;
+    line-height: 1.35;
+    margin-bottom: 30px; }
+  .touch__form {
+    width: 48.5%;
+    line-height: 16px;
+    font-size: 16px;
+    color: #ccc;
+    vertical-align: middle;
+    font-weight: 400;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .touch__input {
+    height: 42px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #ccc;
+    width: 200px; }
+  .touch__btn {
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .touch__btn:hover, .touch__btn:active {
+      border: none; }
+
 .btn-primary {
   background-color: #f7db5f;
   border-radius: 3px;
