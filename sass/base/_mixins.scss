@@ -1,0 +1,35 @@
+@mixin phonePort {
+	@media (max-width: 320px) {
+		@content;
+	}
+}
+
+@mixin phoneLand {
+	@media (max-width: 480px) {
+		@content;
+	}
+}
+
+@mixin tabletPort {
+	@media (max-width: 600px) {
+		@content;
+	}
+}
+
+@mixin tabletLand {
+	@media (max-width: 801px) {
+		@content;
+	}
+}
+
+@mixin big {
+	@media (max-width: 1025px) {
+		@content;
+	}
+}
+
+@mixin bigger {
+	@media (max-width: 1281px) {
+		@content;
+	}
+}

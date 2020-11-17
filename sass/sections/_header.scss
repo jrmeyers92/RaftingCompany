@@ -2,11 +2,14 @@
 	min-height: 20vh;
 	background-color: $dark-green;
 
+	// @include tabletLand {
+	// 	background-color: $dark-white;
+	// }
+
 	&__top {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		align-items: center;
 		// margin-bottom: 4px;
 	}
 
@@ -27,13 +30,10 @@
 		font-weight: 700;
 		line-height: 1.89rem;
 		cursor: pointer;
+		margin-right: 25px;
 
 		&:hover {
 			border-bottom: 1px solid $yellow;
 		}
-	}
-
-	&__button {
-		margin-left: 25px;
 	}
 }

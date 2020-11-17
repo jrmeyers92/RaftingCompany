@@ -1,7 +1,6 @@
 .btn-primary {
 	background-color: $yellow;
 	border-radius: 3px;
-	transition: all 0.2s;
 	border: $dark-green;
 	color: $dark-green;
 	text-transform: uppercase;
@@ -11,7 +10,7 @@
 	font-size: 14px;
 	padding: 12px 13px;
 	line-height: 1.8rem;
-
+	transition: all 0.2s;
 	&:hover {
 		background-color: $orange;
 	}
