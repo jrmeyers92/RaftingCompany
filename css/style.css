@@ -196,7 +196,7 @@ body {
     text-transform: uppercase;
     font-family: "Oswald" sans-serif;
     letter-spacing: 0.5px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: #ebebeb;
     font-weight: 400; }
   .touch__para {
@@ -204,9 +204,8 @@ body {
     font-size: 19px;
     font-family: "Archivo" sans-serif;
     line-height: 1.35;
-    margin-bottom: 30px; }
+    margin-bottom: 20px; }
   .touch__form {
-    width: 48.5%;
     line-height: 16px;
     font-size: 16px;
     color: #ccc;
@@ -221,7 +220,7 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     color: #ccc;
-    width: 200px; }
+    width: 300px; }
   .touch__btn {
     height: 42px;
     display: flex;
@@ -229,6 +228,46 @@ body {
     align-items: center; }
     .touch__btn:hover, .touch__btn:active {
       border: none; }
+
+.footer {
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 10vw; }
+  .footer__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 50vw; }
+  .footer__item {
+    color: #033845;
+    list-style-type: none;
+    font-size: 15px;
+    padding: 18px 18px;
+    text-transform: capitalize;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 700; }
+    .footer__item:hover, .footer__item:active {
+      color: #e99557; }
+  .footer__icon {
+    font-size: 22px;
+    margin: 0 15px;
+    cursor: pointer; }
+
+.facebook {
+  color: #3b5998; }
+
+.twitter {
+  color: #00acee; }
+
+.youtube {
+  color: #c4302b; }
+
+.yelp {
+  color: #c41200; }
 
 .btn-primary {
   background-color: #f7db5f;
