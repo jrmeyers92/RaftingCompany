@@ -316,7 +316,8 @@ body {
     .card {
       width: 100%; } }
   .card__image {
-    max-width: 350px; }
+    max-width: 350px;
+    object-fit: cover; }
   .card__right {
     display: flex;
     flex-direction: column; }
