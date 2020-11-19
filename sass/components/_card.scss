@@ -5,6 +5,7 @@
 	display: flex;
 	margin-bottom: 100px;
 	background-color: $dark-white;
+	overflow: hidden;
 
 	@include tabletLand {
 		width: 100%;
@@ -13,6 +14,14 @@
 	&__image {
 		max-width: 350px;
 		object-fit: cover;
+
+		@include big {
+			max-width: 250px;
+		}
+
+		@include tabletPort {
+			display: none;
+		}
 	}
 
 	&__right {
@@ -82,6 +91,7 @@
 		color: $red;
 		border-top: 1px solid $border-color;
 		cursor: pointer;
+		object-fit: contain;
 	}
 
 	&__book {
@@ -95,5 +105,6 @@
 		font-weight: 700;
 		font-family: "Archivo";
 		cursor: pointer;
+		object-fit: contain;
 	}
 }

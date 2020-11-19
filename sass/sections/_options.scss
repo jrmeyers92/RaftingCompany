@@ -9,6 +9,11 @@
 	padding-top: 15px;
 	padding-bottom: 100px;
 
+	@include big {
+		padding-left: 10vw;
+		padding-right: 10vw;
+	}
+
 	&__list {
 		list-style-type: none;
 		display: flex;
@@ -44,6 +49,10 @@
 		font-family: "Oswald" sans-serif;
 		letter-spacing: 0.5px;
 		color: #ccc;
+
+		@include big {
+			font-size: 38px;
+		}
 	}
 
 	&__paragraph {
