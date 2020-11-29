@@ -6,10 +6,11 @@
 	align-items: center;
 
 	&__container {
-		min-height: 60vh;
-		min-width: 70vw;
-		max-height: 80vh;
-		max-width: 80vw;
+		// min-height: 60vh;
+		// min-width: 70vw;
+		// max-height: 80vh;
+		// max-width: 80vw;
+		margin: 10vh 10vw;
 		background-color: $blue;
 		display: flex;
 		flex-direction: column;
