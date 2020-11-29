@@ -246,15 +246,21 @@ body {
     text-transform: uppercase;
     font-family: "Oswald" sans-serif;
     letter-spacing: 0.5px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #ebebeb;
     font-weight: 400; }
+    @media (max-width: 801px) {
+      .touch__header {
+        font-size: 38px; } }
   .touch__para {
     columns: #ccc;
     font-size: 19px;
     font-family: "Archivo" sans-serif;
     line-height: 1.35;
     margin-bottom: 20px; }
+    @media (max-width: 600px) {
+      .touch__para {
+        font-size: 16px; } }
   .touch__form {
     line-height: 16px;
     font-size: 16px;
@@ -273,6 +279,9 @@ body {
     width: 420px;
     letter-spacing: 1px;
     font-size: 16px; }
+    @media (max-width: 600px) {
+      .touch__input {
+        width: 300px; } }
   .touch__btn {
     height: 42px;
     display: flex;
@@ -288,11 +297,18 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 20px 10vw; }
+  @media (max-width: 1025px) {
+    .footer {
+      flex-direction: column; } }
   .footer__list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: 50vw; }
+    @media (max-width: 1025px) {
+      .footer__list {
+        flex-direction: column;
+        margin-bottom: 30px; } }
   .footer__item {
     color: #033845;
     list-style-type: none;
@@ -304,6 +320,10 @@ body {
     font-weight: 700; }
     .footer__item:hover, .footer__item:active {
       color: #e99557; }
+    @media (max-width: 1025px) {
+      .footer__item {
+        padding: 10px;
+        text-align: center; } }
   .footer__icon {
     font-size: 22px;
     margin: 0 15px;
@@ -422,7 +442,10 @@ body {
     font-weight: 700;
     font-family: "Archivo";
     cursor: pointer;
-    object-fit: contain; }
+    object-fit: contain;
+    transition: all 0.2s; }
+    .card__book:hover, .card__book:active {
+      background-color: #c5483a; }
 
 /*!
  * Hamburgers

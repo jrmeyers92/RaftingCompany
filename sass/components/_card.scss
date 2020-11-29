@@ -106,5 +106,11 @@
 		font-family: "Archivo";
 		cursor: pointer;
 		object-fit: contain;
+		transition: all 0.2s;
+
+		&:hover,
+		&:active {
+			background-color: $red-dark;
+		}
 	}
 }
