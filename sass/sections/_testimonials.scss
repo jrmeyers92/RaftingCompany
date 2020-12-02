@@ -35,6 +35,30 @@
 		margin-bottom: 40px;
 	}
 
+	&__carosel {
+		display: flex;
+		justify-content: space-between;
+		margin: 30px;
+	}
+
+	&__arrow {
+		font-size: 2rem;
+		cursor: pointer;
+		color: $dark-green;
+
+		&:hover,
+		&:active {
+			color: $yellow;
+		}
+	}
+
+	&__content {
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+	}
+
 	&__para {
 		color: #fff;
 		font-size: 22px;
