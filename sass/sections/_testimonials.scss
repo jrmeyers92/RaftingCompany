@@ -57,6 +57,23 @@
 		flex-flow: column;
 		justify-content: center;
 		align-items: center;
+		transition: all 0.2s;
+	}
+
+	&__content.prev,
+	&__content.next {
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	&__content.prev {
+		transform: translateX(-8000px);
+	}
+
+	&__content.next {
+		transform: translateX(8000px);
 	}
 
 	&__para {
@@ -81,4 +98,8 @@
 		margin-bottom: 50px;
 		font-family: "Archivo" sans-serif;
 	}
+}
+
+.active {
+	opacity: 1;
 }

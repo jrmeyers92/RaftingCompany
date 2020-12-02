@@ -228,7 +228,17 @@ body {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    transition: all 0.2s; }
+  .testimonials__content.prev, .testimonials__content.next {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .testimonials__content.prev {
+    transform: translateX(-8000px); }
+  .testimonials__content.next {
+    transform: translateX(8000px); }
   .testimonials__para {
     color: #fff;
     font-size: 22px;
@@ -247,6 +257,9 @@ body {
     margin-top: 59px;
     margin-bottom: 50px;
     font-family: "Archivo" sans-serif; }
+
+.active {
+  opacity: 1; }
 
 .touch {
   background-color: #033845;
