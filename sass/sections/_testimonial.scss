@@ -4,31 +4,31 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 70vh;
+	min-height: 70vh;
 	flex-direction: column;
 }
 .testimonials {
 	width: 80vw;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: $blue;
 
+	@include tabletPort {
+		width: 100vw;
+	}
+
 	&__carousel {
-		border: 2px solid #444;
 		min-height: 200px;
 		overflow: hidden;
 		position: relative;
 		height: 100%;
-		// display: flex;
 	}
 
 	&__slider {
 		height: 100%;
 		display: flex;
 		width: 400%;
-		border: 1px solid red;
 		transition: all 0.2s;
 		background-color: $blue;
 		color: white;
